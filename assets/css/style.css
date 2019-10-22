@@ -17,8 +17,12 @@ h1{
 }
 
 .passContainer{
-  border-style: solid;
+  border-style: dotted;
   margin-left: 10px;
   margin-right: 10px;
   padding-bottom: 30px;
+}
+
+#display{
+  width: 100%;
 }
