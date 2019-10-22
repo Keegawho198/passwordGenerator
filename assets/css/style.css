@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  background-color:lightgray ;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.mainContainer{
+  background-color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
+
+.passContainer{
+  border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 30px;
+}
