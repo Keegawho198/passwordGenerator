@@ -2,6 +2,11 @@ h1{
   text-align: center;
 }
 
+.h2, h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
 .container{
   background-color:lightgray ;
   margin-top: 10px;
@@ -25,4 +30,18 @@ h1{
 
 #display{
   width: 100%;
+}
+
+.btn-primary {
+  color: #fff;
+  margin-left: 10px;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.btn-secondary {
+  color: #fff;
+  margin-left: 30%;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
