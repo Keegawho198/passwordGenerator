@@ -2,7 +2,6 @@
 function generate(){
     var size = undefined;
 
-
     //set password length
     while (size == undefined) {
         var userInput = parseInt(prompt("How many characters to do want in the password?"));
@@ -34,11 +33,9 @@ function generate(){
     //need to add if statement where it checks if the user wants to add a special character.
 
     //possible password values
-    var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890";
-    //var lowerCase = "abcdefghijklmnopqrstuvwxyz";
-    //var numbers = "1234567890";
-    var specialChar = "!@#$%^&*()_+";
-    var character = "";
+    var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+    var specialChar = "";
+   // var character = "";
 
     var password = "";
 
@@ -46,14 +43,10 @@ function generate(){
     for(var i = 0; i < size; i++){
         password = password + upperCase.charAt(Math.floor(Math.random() * Math.floor(upperCase.length - 1)));
         //password2 = password + specialChar.charAt(Math.floor(Math.random() * Math.floor(specialChar.length - 1)));
-
         //character += upperCase.charAt( password1 );
        // character += specialChar.charAt( password2);
-
        // password = character;
-
         //password=password.split('').sort(function(){return Math.random()}).join('');
-
 
     }
 
